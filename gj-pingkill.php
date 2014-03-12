@@ -7,9 +7,6 @@ Version: 0.1
 Author: GunnJerkens
 Author URI: http://gunnjerkens.com
 Author Email: devteam@gunnjerkens.com
-
-License: 
-http://opensource.org/licenses/mit-license.html
 */
 
 add_filter( ‘xmlrpc_methods’, function( $methods ) {
