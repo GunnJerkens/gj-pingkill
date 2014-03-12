@@ -9,4 +9,4 @@ Download as a zip, install via wordpress admin. Or submodule.
 
 ### Test
 
-curl -D -  "sitetotest.com" -d '<methodCall><methodName>pingback.ping</methodName><params><param><value><string>http://victim.com</string></value></param><param><value><string>www.anywordpresssite.com/postchosen</string></value></param></params></methodCall>'
+`curl -D -  "sitetotest.com" -d '<methodCall><methodName>pingback.ping</methodName><params><param><value><string>http://victim.com</string></value></param><param><value><string>www.anywordpresssite.com/postchosen</string></value></param></params></methodCall>'`
